@@ -1,0 +1,7 @@
+i {
+  color: black;
+  transition: all 0.3 ease;
+}
+i:hover {
+  transform: scale(1.5);
+}

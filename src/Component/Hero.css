@@ -1,0 +1,41 @@
+/* hero section */
+.hero {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.hero-name {
+  margin-top: 0;
+  font-size: 8rem;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  color: #000000;
+  animation-name: fadeIn;
+  animation-duration: 1s; /* Adjust the duration as needed */
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.typewriter-element {
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  color: #000000;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+/* Optional: Add other animation-related classes like 'animated', 'infinite', etc., to further customize the animation */
