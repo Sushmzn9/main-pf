@@ -46,7 +46,7 @@
   width: 35px;
   height: 35px;
   position: absolute;
-  right: 100px;
+  right: 95px;
   border-radius: 50%;
 }
 
@@ -64,7 +64,7 @@
   height: 35px;
   border-radius: 50%;
   position: absolute;
-  right: 150px;
+  right: 137px;
 }
 
 .Earth {
@@ -73,7 +73,7 @@
   border: 2px solid rgb(179, 181, 136);
   border-radius: 50%;
   position: absolute;
-  animation: spin 60s linear infinite reverse;
+  animation: spin 40s linear infinite;
 }
 
 .s2 {
@@ -81,7 +81,7 @@
   height: 35px;
   border-radius: 50%;
   position: absolute;
-  right: 140px;
+  right: 173px;
 }
 
 .Mars {
@@ -115,7 +115,7 @@
   height: 35px;
   border-radius: 50%;
   position: absolute;
-  right: 210px;
+  right: 120px;
 }
 
 .Saturn {
@@ -132,7 +132,7 @@
   height: 35px;
   border-radius: 50%;
   position: absolute;
-  right: 280px;
+  right: 295px;
 }
 
 @keyframes spin {
