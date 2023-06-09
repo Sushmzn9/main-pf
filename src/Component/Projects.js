@@ -69,7 +69,7 @@ export const Projects = () => {
               <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
                 <h3>Calculator</h3>
               </a>
-              <p>dbfibdfhaoidbasuyboiasniSBdandcnasl</p>
+              <p>This is a Calculator</p>
             </div>
           </div>
         </div>
