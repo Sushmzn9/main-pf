@@ -3,10 +3,8 @@ import React from "react";
 
 export const Skills = () => {
   return (
-    <div className="container text-center">
-      <h1 className="skills-name" id="skills">
-        Skills
-      </h1>
+    <div className="container text-center" id="skills">
+      <h1 className="skills-name">Skills</h1>
       <div className="row">
         <div className="col">
           <div className="Skills-p">

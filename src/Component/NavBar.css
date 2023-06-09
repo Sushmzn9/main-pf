@@ -1,0 +1,21 @@
+nav {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.4rem;
+}
+.navbar-expand-md {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.line {
+  height: 20px;
+  width: 2px;
+  background-color: black;
+  margin-right: 1rem;
+}

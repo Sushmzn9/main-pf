@@ -1,0 +1,8 @@
+<div className="hero container text-center">
+  <div className="hero-name">
+    I am
+    <br />
+    Sushan Maharjan
+    <div className="typewriter-element animated-text "></div>
+  </div>
+</div>

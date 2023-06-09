@@ -6,3 +6,7 @@
 .img {
   border-radius: 50%;
 }
+
+.main {
+  gap: 1rem;
+}

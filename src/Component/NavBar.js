@@ -1,11 +1,21 @@
+import "./NavBar.css";
+
 export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md bg-none">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            Sushan
-          </a>
+          <div className="heading">
+            <div>
+              <a className="navbar-brand" href="#">
+                <b>Sushan</b>
+              </a>
+            </div>
+            <div className="line"></div>
+            <div>
+              <b>Soft. Developer</b>
+            </div>
+          </div>
           <button
             className="navbar-toggler"
             type="button"

@@ -1,11 +1,10 @@
 /* hero section */
 .hero {
   display: flex;
-  width: 80%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 80vh;
 }
 .hero-name {
   margin-top: 0;

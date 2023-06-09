@@ -3,7 +3,7 @@
 }
 
 .skills-name {
-  margin-top: 7rem;
+  margin-top: 8rem;
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -146,6 +146,8 @@
 
 .Skills-p {
   display: flex;
+  width: 90%;
+  margin: auto;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
