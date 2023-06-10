@@ -1,7 +1,9 @@
 .img {
   font-size: 2rem;
 }
-
+.skill-row {
+  gap: 1.5rem;
+}
 .skills-name {
   margin-top: 8rem;
   font-size: 3rem;

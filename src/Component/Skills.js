@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <div className="container text-center" id="skills">
       <h1 className="skills-name">Skills</h1>
-      <div className="row">
+      <div className="row skill-row">
         <div className="col">
           <div className="Skills-p">
             <p>

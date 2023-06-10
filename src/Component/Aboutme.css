@@ -10,3 +10,7 @@
 .main {
   gap: 1rem;
 }
+#about-me {
+  width: 80%;
+  margin: auto;
+}
