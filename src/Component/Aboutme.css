@@ -14,3 +14,12 @@
   margin-top: 1rem !important;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 600px) {
+  .Aboutme {
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .sus {
+    margin-bottom: 2 rem;
+  }
+}

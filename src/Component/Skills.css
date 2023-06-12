@@ -39,7 +39,7 @@
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  border: 2px solid rgb(179, 181, 136);
+  border: 2px solid rgba(255, 255, 255, 0.503);
   animation: spin 80s linear infinite;
 }
 
@@ -54,7 +54,7 @@
 .Venus {
   width: 215px;
   height: 215px;
-  border: 2px solid rgb(179, 181, 136);
+  border: 2px solid rgba(255, 255, 255, 0.503);
   border-radius: 50%;
   position: absolute;
   animation: spin 60s linear infinite reverse;
@@ -71,7 +71,7 @@
 .Earth {
   width: 280px;
   height: 280px;
-  border: 2px solid rgb(179, 181, 136);
+  border: 2px solid rgba(255, 255, 255, 0.503);
   border-radius: 50%;
   position: absolute;
   animation: spin 40s linear infinite;
@@ -88,7 +88,7 @@
 .Mars {
   width: 350px;
   height: 350px;
-  border: 2px solid rgb(179, 181, 136);
+  border: 2px solid rgba(255, 255, 255, 0.503);
   border-radius: 50%;
   position: absolute;
   animation: spin 60s linear infinite;
@@ -105,7 +105,7 @@
 .Jupiter {
   width: 415px;
   height: 415px;
-  border: 2px solid rgb(179, 181, 136);
+  border: 2px solid rgba(255, 255, 255, 0.503);
   border-radius: 50%;
   position: absolute;
   animation: spin 60s linear infinite reverse;
@@ -122,7 +122,7 @@
 .Saturn {
   width: 470px;
   height: 470px;
-  border: 2px solid rgb(179, 181, 136);
+  border: 2px solid rgba(255, 255, 255, 0.503);
   border-radius: 50%;
   position: absolute;
   animation: spin 60s linear infinite;
@@ -158,4 +158,165 @@
 
 .wrapper {
   margin: 1rem;
+}
+@media (max-width: 600px) {
+  .solar-system {
+    height: 55vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .Sun {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+  }
+
+  .Mercury {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    animation: spin 80s linear infinite;
+  }
+
+  .s {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 95px;
+    border-radius: 50%;
+  }
+
+  .Venus {
+    width: 215px;
+    height: 215px;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 60s linear infinite reverse;
+  }
+
+  .s1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 137px;
+  }
+
+  .Earth {
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 40s linear infinite;
+  }
+
+  .s2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 173px;
+  }
+
+  .Mars {
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 60s linear infinite;
+  }
+
+  .s3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 220px;
+  }
+
+  .Jupiter {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 60s linear infinite reverse;
+  }
+
+  .s4 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 120px;
+  }
+
+  .Saturn {
+    width: 450px;
+    height: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    margin-right: 10px;
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 60s linear infinite;
+  }
+
+  .s5 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 295px;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .Skills-p {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .wrapper {
+    margin: 1rem;
+  }
+
+  .skills-name {
+    margin-top: 5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+  }
 }

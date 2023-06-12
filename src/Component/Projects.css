@@ -28,3 +28,18 @@ h1 {
 .col {
   margin: 1rem;
 }
+@media (max-width: 600px) {
+  h1 {
+    margin-top: 5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 20px;
+  }
+}
