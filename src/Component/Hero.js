@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 import "./Hero.css"; // Import the CSS file for Hero component
-
 export const Hero = () => {
   useEffect(() => {
     // Code to be executed when the component mounts or when the dependencies change
@@ -15,25 +14,32 @@ export const Hero = () => {
 
     // Add strings to the Typewriter
     typewriter
-      .typeString("Web Developer")
+      .typeString("I'm Web Developer")
       .pauseFor(3000) // Pause for 1 second after typing "Web developer"
       .deleteAll()
-      .typeString("Full Stack Developer")
+      .typeString("I'm Full Stack Developer")
       .pauseFor(3000) // Pause for 1 second after typing "Full stack developer"
       .deleteAll()
-      .typeString("UI/UX Designer")
+      .typeString("I'm UI/UX Designer")
       .pauseFor(3000) // Pause for 5 seconds after typing "TypeScript"
       .deleteAll()
       .start(); // Start the typewriter effect
   }, []);
 
   return (
-    <div className="hero container text-center">
-      <div className="hero-name">
-        I am
-        <br /> Sushan Maharjan
-        <div className="typewriter-element animated-text "></div>
+    <>
+      <div className="hero container ">
+        <div className="hero-name text-center">
+          <div className="greeting">
+            <b>Welcome to my Portfolio!</b>
+          </div>
+          <>
+            <i class="fa-solid fa-door-open"></i>
+          </>
+
+          <div className="typewriter-element animated-text "></div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };

@@ -1,6 +1,6 @@
 .Aboutme {
-  font-family: "Indie Flower", cursive;
   font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .img {
@@ -10,7 +10,7 @@
 .main {
   gap: 1rem;
 }
-#about-me {
-  width: 80%;
-  margin: auto;
+.sus {
+  margin-top: 1rem !important;
+  margin-bottom: 1.5rem;
 }

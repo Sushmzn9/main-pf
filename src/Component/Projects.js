@@ -57,32 +57,6 @@ export const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="col">
-            <div>
-              <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
-                <img src={cal} alt="" />
-              </a>
-            </div>
-            <div className="title">
-              <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
-                <h3>Calculator</h3>
-              </a>
-              <p>HTML,CSS </p>
-            </div>
-          </div>
-          <div className="col">
-            <div>
-              <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
-                <img src={cal} alt="" />
-              </a>
-            </div>
-            <div className="title">
-              <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
-                <h3>Calculator</h3>
-              </a>
-              <p>This is a Calculator</p>
-            </div>
-          </div>
         </div>
       </div>
     </>

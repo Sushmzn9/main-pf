@@ -4,7 +4,7 @@ export const Aboutme = () => {
   return (
     <section id="about-me" className="container mt-3 py-5">
       <div>
-        <h1>About Me</h1>
+        <h1 className="sus">About Me</h1>
       </div>
       <div className="row main">
         <div className="col-md-4 mb-5">

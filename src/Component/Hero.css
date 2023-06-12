@@ -1,17 +1,15 @@
 /* hero section */
+
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   height: 100vh;
-  width: 90%;
-  margin: auto;
 }
 .hero-name {
-  font-size: 7rem;
-  font-family: "Indie Flower", cursive;
-  text-align: center;
+  font-size: 5rem;
+  /* text-align: center; */
   color: #000000;
   animation-name: fadeIn;
   animation-duration: 1s; /* Adjust the duration as needed */
@@ -30,7 +28,8 @@
 }
 
 .typewriter-element {
-  font-family: "Indie Flower", cursive;
+  margin-top: 1rem;
+  font-style: bold;
   font-size: 3rem;
   color: #000000;
   animation-name: fadeIn;
@@ -40,3 +39,18 @@
 }
 
 /* Optional: Add other animation-related classes like 'animated', 'infinite', etc., to further customize the animation */
+@media (max-width: 600px) {
+  .hero-name {
+    font-size: 3rem;
+  }
+  .typewriter-element {
+    margin-top: 1rem;
+    font-style: bold;
+    font-size: 1.5rem;
+    color: #000000;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+  }
+}

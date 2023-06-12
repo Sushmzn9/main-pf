@@ -1,21 +1,21 @@
-nav {
-  font-family: "Indie Flower", cursive;
-  font-size: 1.4rem;
-}
-.navbar-expand-md {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-}
-
-.heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
 .line {
-  height: 20px;
+  height: 30px;
   width: 2px;
-  background-color: black;
-  margin-right: 1rem;
+  background-color: rgba(236, 3, 3, 0.823);
+  margin: 0;
+}
+.name {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.container {
+  row-gap: 20%;
+  gap: 30%;
+}
+@media (max-width: 600px) {
+  .container {
+    gap: 0;
+    row-gap: 0;
+  }
 }

@@ -9,7 +9,7 @@ import { Contact } from "./Component/Contact";
 import { Footer } from "./Component/Footer";
 function App() {
   return (
-    <>
+    <div className="body">
       <NavBar />
       <Hero />
       <Aboutme />
@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

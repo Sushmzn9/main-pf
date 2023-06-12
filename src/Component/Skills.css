@@ -9,7 +9,6 @@
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
-  font-family: "Indie Flower", cursive;
 }
 
 .solar-system {
@@ -154,7 +153,6 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  font-family: "Indie Flower", cursive;
   font-size: 1.4rem;
 }
 
