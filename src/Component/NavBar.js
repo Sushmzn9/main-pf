@@ -1,3 +1,4 @@
+import React from "react";
 import "./NavBar.css";
 
 export const NavBar = () => {
@@ -7,7 +8,7 @@ export const NavBar = () => {
         <div className="container">
           <div className="heading">
             <div>
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="/">
                 <b>Sushan</b>
               </a>
             </div>
@@ -48,7 +49,6 @@ export const NavBar = () => {
                   Projects
                 </a>
               </li>
-
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
                   Contact
