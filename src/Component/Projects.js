@@ -1,6 +1,7 @@
 import cal from "./assets/cal.jpeg";
 import weather from "./assets/Weather.png";
 import solar from "./assets/solar.png";
+import crypto from "./assets/Crypto.jpeg";
 import "./Projects.css";
 
 export const Projects = () => {
@@ -32,7 +33,7 @@ export const Projects = () => {
               </a>
             </div>
             <div className="title">
-              <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
+              <a href="https://sushmzn9.github.io/weather-app/">
                 <h3>Weather Tracker</h3>
               </a>
               <p>
@@ -41,6 +42,7 @@ export const Projects = () => {
               </p>
             </div>
           </div>
+
           <div className="col">
             <div>
               <a href="https://sushmzn9.github.io/solarsystem/">
@@ -48,12 +50,30 @@ export const Projects = () => {
               </a>
             </div>
             <div className="title">
-              <a href="https://react-calculator-758j5dydq-sushmzn9.vercel.app/">
+              <a href="https://sushmzn9.github.io/solarsystem/">
                 <h3>Solar System</h3>
               </a>
               <p>
                 Created a solar system using HTML and CSS to visually represent
                 the planets and their orbits in a web-based interface.
+              </p>
+            </div>
+          </div>
+          <div className="col">
+            <div>
+              <a href="https://sushmzn9.github.io/cryptoapi/">
+                <img src={crypto} alt="" />
+              </a>
+            </div>
+            <div className="title">
+              <a href="https://sushmzn9.github.io/cryptoapi/">
+                <h3>Crypto Tracker</h3>
+              </a>
+              <p>
+                A crypto tracker with an API tracks the market value of the top
+                100 cryptocurrencies in real-time, providing users with
+                up-to-date information on prices, market capitalization, and
+                trading volumes.
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ export const Contact = () => {
       <h1>Contact Me</h1>
 
       <div class="row fa-3x">
-        <div class="col d-flex justify-content-around pb-4">
+        <div class="col d-flex justify-content-evenly pb-4">
           <a href="tel:0404030929">
             <i class="fa-solid fa-mobile"></i>
           </a>

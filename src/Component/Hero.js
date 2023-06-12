@@ -28,7 +28,7 @@ export const Hero = () => {
 
   return (
     <>
-      <div className="hero container ">
+      <div className="hero container " id="home">
         <div className="hero-name text-center">
           <div className="greeting">
             <b>Welcome to my Portfolio!</b>
