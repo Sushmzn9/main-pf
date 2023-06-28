@@ -26,7 +26,7 @@ export const Contact = () => {
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="email" placeholder="Enter Your Name" required />
+            <Form.Control type="text" placeholder="Enter Your Name" required />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>

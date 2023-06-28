@@ -67,7 +67,7 @@ export const Projects = () => {
             </div>
             <div className="title">
               <a href="https://sushmzn9.github.io/cryptoapi/">
-                <h3>Crypto Tracker</h3>
+                <h3>Crypto Tracker Website</h3>
               </a>
               <p>
                 A crypto tracker with an API tracks the market value of the top
