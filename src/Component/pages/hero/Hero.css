@@ -30,6 +30,7 @@
 .typewriter-element {
   margin-top: 1rem;
   font-style: bold;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   color: #000000;
   animation-name: fadeIn;
@@ -51,6 +52,6 @@
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-fill-mode: both;
-    animation-delay: 2s;
+    animation-delay: 3s;
   }
 }

@@ -2,32 +2,32 @@ import "./Skills.css";
 import React from "react";
 
 export const Skills = () => {
+  const input = [
+    {
+      p: " MongoDB: NoSQL, document-based, CRUD, indexing, performance optimization, data modeling, Mongoose",
+    },
+    {
+      p: "  Express.js: RESTful APIs, routing, middleware, authentication,authorization, error handling, validation, template engines",
+    },
+    {
+      p: " React: Components, JSX, virtual DOM, UI components, state  management, React hooks, Redux, React Router, lifecycle methods ",
+    },
+    {
+      p: "  Node.js: Server-side JavaScript, event-driven, non-blocking I/O, NPM, package management, Express.js integration",
+    },
+    {
+      p: "  MERN Stack: Full stack development, MongoDB, Express.js, React, Node.js, JavaScript, RESTful APIs",
+    },
+  ];
   return (
     <div className="container text-center" id="skills">
       <h1 className="skills-name">Skills</h1>
       <div className="row skill-row">
         <div className="col">
           <div className="Skills-p">
-            <p>
-              MongoDB: NoSQL, document-based, CRUD, indexing, performance
-              optimization, data modeling, Mongoose
-            </p>
-            <p>
-              Express.js: RESTful APIs, routing, middleware, authentication,
-              authorization, error handling, validation, template engines
-            </p>
-            <p>
-              React: Components, JSX, virtual DOM, UI components, state
-              management, React hooks, Redux, React Router, lifecycle methods
-            </p>
-            <p>
-              Node.js: Server-side JavaScript, event-driven, non-blocking I/O,
-              NPM, package management, Express.js integration
-            </p>
-            <p>
-              MERN Stack: Full stack development, MongoDB, Express.js, React,
-              Node.js, JavaScript, RESTful APIs
-            </p>
+            {input.map((item, i) => (
+              <p key={i}>{item.p}</p>
+            ))}
           </div>
         </div>
         <div className="row wrapper">
