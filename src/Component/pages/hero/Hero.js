@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect/dist/core";
+import { motion } from "framer-motion";
+
 import "./Hero.css"; // Import the CSS file for Hero component
 export const Hero = () => {
   useEffect(() => {
@@ -31,11 +33,21 @@ export const Hero = () => {
       <div className="hero container " id="home">
         <div className="hero-name text-center">
           <div className="greeting">
-            <b>Welcome to my Portfolio!</b>
+            <motion.div
+              initial={{ x: -100000, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{
+                type: "spring",
+
+                delay: 0.4,
+              }}
+            >
+              <b>Welcome to my Portfolio!</b>
+              <>
+                <i class="fa-solid fa-door-open"></i>
+              </>
+            </motion.div>
           </div>
-          <>
-            <i class="fa-solid fa-door-open"></i>
-          </>
 
           <div className="typewriter-element animated-text "></div>
         </div>

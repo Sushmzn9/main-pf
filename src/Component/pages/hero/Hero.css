@@ -12,7 +12,7 @@
   /* text-align: center; */
   color: #000000;
   animation-name: fadeIn;
-  animation-duration: 1s; /* Adjust the duration as needed */
+  animation-duration: 3s; /* Adjust the duration as needed */
   animation-fill-mode: both;
   animation-delay: 1s;
   margin-bottom: 7rem;
@@ -35,7 +35,7 @@
   animation-name: fadeIn;
   animation-duration: 2s;
   animation-fill-mode: both;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 /* Optional: Add other animation-related classes like 'animated', 'infinite', etc., to further customize the animation */
