@@ -1,5 +1,5 @@
 import "./Aboutme.css";
-import Sushan from "./assets/Sushan.jpeg";
+import Sushan from "./Sushan.jpeg";
 export const Aboutme = () => {
   return (
     <section id="about-me" className="container mt-3 py-5">

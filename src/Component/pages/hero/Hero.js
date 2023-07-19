@@ -14,13 +14,13 @@ export const Hero = () => {
 
     // Add strings to the Typewriter
     typewriter
-      .typeString("I'm Web Developer")
-      .pauseFor(3000) // Pause for 1 second after typing "Web developer"
+      .typeString("I'm Sushan Maharjan")
+      .pauseFor(4000) // Pause for 1 second after typing "Web developer"
       .deleteAll()
       .typeString("I'm Full Stack Developer")
       .pauseFor(3000) // Pause for 1 second after typing "Full stack developer"
       .deleteAll()
-      .typeString("I'm UI/UX Designer")
+      .typeString("I'm Web Developer")
       .pauseFor(3000) // Pause for 5 seconds after typing "TypeScript"
       .deleteAll()
       .start(); // Start the typewriter effect

@@ -1,0 +1,8 @@
+i {
+  color: rgba(4, 9, 7, 0.719);
+  transition: all 0.3 ease;
+}
+i:hover {
+  transform: scale(1.1);
+  color: rgba(37, 66, 255, 0.899);
+}
